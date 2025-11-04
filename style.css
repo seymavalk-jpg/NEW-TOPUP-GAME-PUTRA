@@ -1,0 +1,16 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+body { background: #121212; color: #fff; }
+header { background: #ff1744; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
+header h1 { margin: 0; }
+header nav { display: flex; align-items: center; gap: 1rem; }
+header select { padding: 0.3rem; border-radius: 5px; border: none; }
+main { display: flex; flex-wrap: wrap; padding: 1rem; gap: 2rem; }
+section { background: #1e1e1e; padding: 1rem; border-radius: 10px; flex: 1; min-width: 300px; }
+button { background: #ff1744; border: none; padding: 0.5rem 1rem; color: #fff; border-radius: 5px; cursor: pointer; margin-top: 0.5rem; transition: 0.2s; }
+button:hover { background: #e0143b; transform: scale(1.05); }
+ul { list-style: none; margin-top: 1rem; }
+li { margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem; }
+.card { background: #2a2a2a; padding: 0.5rem; border-radius: 8px; text-align: center; transition: 0.2s; }
+.card:hover { background: #3a3a3a; transform: translateY(-3px); }
+.card button { margin-top: 0.5rem; width: 100%; }
